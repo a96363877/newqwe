@@ -891,13 +891,13 @@ function Landing(props: { handleNextPage: any }) {
                 <div className="pro_1">
                   <div
                     className="ProductCardVertical_wrapper__q1lzz BestSelling_first__or9rS"
-                    data-id="kuwaiti-jumbo-robian-10kg"
+                    data-id="kuwaiti-jumbo-robian-5kg"
                   >
                     <div className="CardProductImage_imageWrapper__0rzrL ProductCardVertical_image__B5TvN">
                       <span className="minus">
                         <img
-                          alt="10 kg Peeled Jumbo Shrimp Box + 2 kg Salmon"
-                          src="/+2 kg Salmon.png"
+                          alt="5 kg Peeled Jumbo Shrimp Box + 2 kg Salmon"
+                          src="/5kg.png"
                           decoding="async"
                           data-nimg="fill"
                           style={{
@@ -922,10 +922,10 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        97.00 QAR
+                        80.00 QAR
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                        10 kg Peeled Jumbo Shrimp Box + 2 kg Salmon
+                        5 kg Peeled Jumbo Shrimp Box + 2 kg Salmon
                       </p>
                     </div>
                     <div className="a_pluss_1">
@@ -935,14 +935,14 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() => {
                           handleAddtoCart({
                             id: 0,
-                            name: 'Box [Shrimp] 10 kg - only for 8 QAR!',
-                            price: '97.00',
+                            name: 'Box [Shrimp] 5 kg - only for 8 QAR!',
+                            price: '80.00',
                             img: '/pr-0.png',
                           });
                         }}
                         data-product-id="product_1"
                         data-product-image="/pr-0.png"
-                        data-product-name="Shrimp Box 10 kg - only for 8 QAR!"
+                        data-product-name="Shrimp Box 5 kg - only for 8 QAR!"
                         data-price={8.0}
                         data-class-add="btn_add_1"
                         data-class-remove="btn_remove_1"
@@ -1305,7 +1305,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        97.00 QAR
+                        80.00 QAR
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
                         Shari Offer - Perfect Daily Taste!
@@ -1319,7 +1319,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 3,
                             name: 'Shari Offer - Perfect Daily Taste!',
-                            price: '97.00',
+                            price: '80.00',
                             img: '/sari.jpg',
                           });
                         }}
@@ -1705,14 +1705,14 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() => {
                           handleAddtoCart({
                             id: 0,
-                            name: 'Shrimp Box 10 kg - only for 8 QAR!',
+                            name: 'Shrimp Box 5 kg - only for 8 QAR!',
                             price: '111.00 ',
                             img: '/ab.jpg',
                           });
                         }}
                         data-product-id="product_1"
                         data-product-image="/ab.jpg"
-                        data-product-name="Shrimp Box 10 kg - only for 8 QAR!"
+                        data-product-name="Shrimp Box 5 kg - only for 8 QAR!"
                         data-price={60.79}
                         data-class-add="btn_add_1"
                         data-class-remove="btn_remove_1"
@@ -1922,7 +1922,7 @@ function Landing(props: { handleNextPage: any }) {
                     <div className="CardProductImage_imageWrapper__0rzrL ProductCardVertical_image__B5TvN">
                       <span className="minus">
                         <img
-                          alt="10 kg Fresh Emirati Jumbo Shrimp"
+                          alt="5 kg Fresh Emirati Jumbo Shrimp"
                           src="https://sam-five-snowy.vercel.app/images/2.png"
                           decoding="async"
                           data-nimg="fill"
@@ -1951,7 +1951,7 @@ function Landing(props: { handleNextPage: any }) {
                         97.270 QAR
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                        10 kg Fresh Emirati Jumbo Shrimp
+                        5 kg Fresh Emirati Jumbo Shrimp
                       </p>
                     </div>
                     <div className="a_pluss_1">
@@ -1961,14 +1961,14 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() => {
                           handleAddtoCart({
                             id: 0,
-                            name: '10 kg Fresh Emirati Jumbo Shrimp',
+                            name: '5 kg Fresh Emirati Jumbo Shrimp',
                             price: '  97.270',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           });
                         }}
                         data-product-id="product_1"
                         data-product-image="/kuwaiti-jumbo-robian-10kg.jpg"
-                        data-product-name="10 kg Fresh Emirati Jumbo Shrimp"
+                        data-product-name="5 kg Fresh Emirati Jumbo Shrimp"
                         data-price={8.0}
                         data-class-add="btn_add_1"
                         data-class-remove="btn_remove_1"
@@ -2079,7 +2079,7 @@ function Landing(props: { handleNextPage: any }) {
                         100.18 QAR
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                        10 kg Turkish Sea Bass Box Size 800-1000
+                        5 kg Turkish Sea Bass Box Size 800-1000
                       </p>
                     </div>
                     <div className="a_pluss_2">
@@ -2088,7 +2088,7 @@ function Landing(props: { handleNextPage: any }) {
                         className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
                         data-product-id="product_2"
                         data-product-image="          https://ar.alwatainy.com/turkish-sea-bass.jpg"
-                        data-product-name="10 kg Turkish Sea Bass Box Size 800-1000"
+                        data-product-name="5 kg Turkish Sea Bass Box Size 800-1000"
                         data-product-price={20.0}
                         data-class-add="btn_add_2"
                         data-class-remove="btn_remove_2"
@@ -2099,7 +2099,7 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() => {
                           handleAddtoCart({
                             id: 0,
-                            name: '10 kg Turkish Sea Bass Box Size 800-1000',
+                            name: '5 kg Turkish Sea Bass Box Size 800-1000',
                             price: '100.18',
                             img: ' https://ar.alwatainy.com/turkish-sea-bass.jpg',
                           });
@@ -2207,7 +2207,7 @@ function Landing(props: { handleNextPage: any }) {
                         98.00 QAR
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
-                        10 kg Peeled Jumbo Shrimp Box
+                        5 kg Peeled Jumbo Shrimp Box
                       </p>
                     </div>
                     <div className="a_pluss_3">
@@ -2215,7 +2215,7 @@ function Landing(props: { handleNextPage: any }) {
                         onClick={() =>
                           handleAddtoCart({
                             id: 0,
-                            name: '10 kg Fresh Emirati Jumbo Shrimp',
+                            name: '5 kg Fresh Emirati Jumbo Shrimp',
                             price: '98.00',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           })
@@ -2224,7 +2224,7 @@ function Landing(props: { handleNextPage: any }) {
                         className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
                         data-product-id="product_3"
                         data-product-image="https://sam-five-snowy.vercel.app/images/1.png"
-                        data-product-name="10 kg Peeled Jumbo Shrimp Box"
+                        data-product-name="5 kg Peeled Jumbo Shrimp Box"
                         data-product-price={8.0}
                         data-class-add="btn_add_3"
                         data-class-remove="btn_remove_3"
@@ -2368,7 +2368,7 @@ function Landing(props: { handleNextPage: any }) {
                         National Offer
                       </h5>
                       <p className="Typography_p8 ProductCardHorizontal_description__YSUl2">
-                        10 kg Turkish Sea Bass Box Size 800-1000.
+                        5 kg Turkish Sea Bass Box Size 800-1000.
                       </p>
                     </div>
                     <div
@@ -2382,7 +2382,7 @@ function Landing(props: { handleNextPage: any }) {
                           className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
                           data-product-id="product_2"
                           data-product-image="           https://sam-five-snowy.vercel.app/images/1.png"
-                          data-product-name="10 kg Turkish Sea Bass Box Size 800-1000"
+                          data-product-name="5 kg Turkish Sea Bass Box Size 800-1000"
                           data-product-price={20.0}
                           data-class-add="btn_add_2"
                           data-class-remove="btn_remove_2"
@@ -2393,7 +2393,7 @@ function Landing(props: { handleNextPage: any }) {
                           onClick={() => {
                             handleAddtoCart({
                               id: 0,
-                              name: '10 kg Fresh Emirati Jumbo Shrimp',
+                              name: '5 kg Fresh Emirati Jumbo Shrimp',
                               price: '97.37',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
@@ -2526,7 +2526,7 @@ function Landing(props: { handleNextPage: any }) {
                         Today's Special
                       </h5>
                       <p className="Typography_p8 ProductCardHorizontal_description__YSUl2">
-                        10 kg Peeled Jumbo Shrimp Box + 2 kg Salmon
+                        5 kg Peeled Jumbo Shrimp Box + 2 kg Salmon
                       </p>
                     </div>
                     <div
@@ -2540,7 +2540,7 @@ function Landing(props: { handleNextPage: any }) {
                           onClick={() => {
                             handleAddtoCart({
                               id: 0,
-                              name: '10 kg Peeled Jumbo Shrimp Box',
+                              name: '5 kg Peeled Jumbo Shrimp Box',
                               price: '97.00',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
@@ -2548,7 +2548,7 @@ function Landing(props: { handleNextPage: any }) {
                           className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
                           data-product-id="product_3"
                           data-product-image="           https://sam-five-snowy.vercel.app/images/3.png"
-                          data-product-name="10 kg Peeled Jumbo Shrimp Box"
+                          data-product-name="5 kg Peeled Jumbo Shrimp Box"
                           data-product-price={97.37}
                           data-class-add="btn_add_3"
                           data-class-remove="btn_remove_3"
@@ -2698,7 +2698,7 @@ function Landing(props: { handleNextPage: any }) {
                           onClick={() => {
                             handleAddtoCart({
                               id: 0,
-                              name: '10 kg Peeled Jumbo Shrimp Box',
+                              name: '5 kg Peeled Jumbo Shrimp Box',
                               price: '45.0',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
@@ -2706,7 +2706,7 @@ function Landing(props: { handleNextPage: any }) {
                           className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
                           data-product-id="product_3"
                           data-product-image="           https://sam-five-snowy.vercel.app/images/3.png"
-                          data-product-name="10 kg Peeled Jumbo Shrimp Box"
+                          data-product-name="5 kg Peeled Jumbo Shrimp Box"
                           data-product-price={97.0}
                           data-class-add="btn_add_3"
                           data-class-remove="btn_remove_3"
@@ -2842,7 +2842,7 @@ function Landing(props: { handleNextPage: any }) {
                         Turkish Sea Bass Box
                       </h5>
                       <p className="Typography_p8 ProductCardHorizontal_description__YSUl2">
-                        10 kg Turkish Sea Bass Box Size 1000-1500.
+                        5 kg Turkish Sea Bass Box Size 1000-1500.
                       </p>
                     </div>
                     <div
@@ -2856,7 +2856,7 @@ function Landing(props: { handleNextPage: any }) {
                           onClick={() => {
                             handleAddtoCart({
                               id: 0,
-                              name: '10 kg Turkish Sea Bass Box Size 1000-1500.',
+                              name: '5 kg Turkish Sea Bass Box Size 1000-1500.',
                               price: '97.09',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
@@ -2864,7 +2864,7 @@ function Landing(props: { handleNextPage: any }) {
                           className="Button_button Button_secondary ProductButton_addButton__y5b_u ProductButton_secondary__qDYDR ProductButton_normal__jOR_t cd-add-to-cart js-cd-add-to-cart "
                           data-product-id="product_4"
                           data-product-image="           https://sam-five-snowy.vercel.app/images/3.png"
-                          data-product-name="10 kg Turkish Sea Bass Box Size 1000-1500."
+                          data-product-name="5 kg Turkish Sea Bass Box Size 1000-1500."
                           data-product-price={389.09}
                           data-class-add="btn_add_4"
                           data-class-remove="btn_remove_4"
