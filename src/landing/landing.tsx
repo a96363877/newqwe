@@ -2526,7 +2526,7 @@ function Landing(props: { handleNextPage: any }) {
                         Today's Special
                       </h5>
                       <p className="Typography_p8 ProductCardHorizontal_description__YSUl2">
-                        5 kg Peeled Jumbo Shrimp Box + 2 kg Salmon
+                        10 kg Peeled Jumbo Shrimp Box + 2 kg Salmon
                       </p>
                     </div>
                     <div
