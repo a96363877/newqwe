@@ -922,7 +922,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        80.00 QAR
+                        45.00 QAR
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         5 kg Peeled Jumbo Shrimp Box + 2 kg Salmon
@@ -936,7 +936,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: 'Box [Shrimp] 5 kg - only for 8 QAR!',
-                            price: '80.00',
+                            price: '45.00',
                             img: '/pr-0.png',
                           });
                         }}
@@ -1052,7 +1052,7 @@ function Landing(props: { handleNextPage: any }) {
                         98.00 QAR
                       </h5>
                       <p className="Typography_p7 ProductCartVerticalDescription_name__M0ou9">
-                        5 kg Premium Salmon Box
+                        10 kg Premium Salmon Box
                       </p>
                     </div>
                     <div className="a_pluss_2">
