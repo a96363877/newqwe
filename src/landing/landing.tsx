@@ -2540,7 +2540,7 @@ function Landing(props: { handleNextPage: any }) {
                           onClick={() => {
                             handleAddtoCart({
                               id: 0,
-                              name: '5 kg Peeled Jumbo Shrimp Box',
+                              name: '10 kg Peeled Jumbo Shrimp Box',
                               price: '97.00',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
