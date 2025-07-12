@@ -24,6 +24,8 @@ export function CheckoutForm({
 
   const [paymentOption, setPaymentOption] = useState("payfull");
   const [locationType, setLocationType] = useState("home");
+  const [currentName, setCurrentName] = useState("");
+  const [currentPhone, setCurrentPhone] = useState("+968");
 
   const totalAmount = paymentOption === "payfull" ? total : 1.0;
 
@@ -44,7 +46,11 @@ export function CheckoutForm({
                     name="name"
                     className="w-full p-3 bg-gray-100 border border-transparent rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
                     type="text"
-                    onChange={(e) => setName(e.target.value)}
+                    value={currentName}
+                    onChange={(e) => {
+                      setCurrentName(e.target.value);
+                      setName(e.target.value);
+                    }}
                     placeholder="Name"
                     required
                   />
@@ -86,10 +92,13 @@ export function CheckoutForm({
                     id="phone"
                     name="phone"
                     className="w-full p-3 bg-gray-100 border border-gray-200 rounded-md focus:ring-2 focus:ring-blue-500 outline-none"
-                    onChange={(e) => setPhone(e.target.value)}
+                    value={currentPhone}
+                    onChange={(e) => {
+                      setCurrentPhone(e.target.value);
+                      setPhone(e.target.value);
+                    }}
                     type="tel"
                     maxLength={12}
-                    defaultValue="+968"
                     required
                   />
                 </div>
