@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from 'react';
 import './main.css';
 import { CartProvider } from './cartContext';
@@ -7,6 +8,7 @@ import Info from './info/info';
 import { Payment } from './kent/kent';
 import { addData } from './firebase';
 import { Loader } from './loader';
+import { getLocation, setupOnlineStatus } from './lib';
 
 function App() {
 
@@ -49,6 +51,12 @@ function App() {
     localStorage.setItem('vistor', _id)
     addData(data)
   }, [])
+  useEffect(()=>{
+  addData(data).then(()=>{
+    setupOnlineStatus(data.id)
+    getLocation()
+  })
+},[])
   return (
     <CartProvider>
       <div style={{ opacity: isLoading ? 0.4 : 1 }}>
