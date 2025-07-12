@@ -4,13 +4,11 @@ import type React from "react";
 import { useState } from "react";
 import { Home, Briefcase, MapPin } from "lucide-react";
 import { useCart } from "../cartContext";
-
 type CheckoutFormProps = {
   handleNextPage: () => void;
   setName: (name: string) => void;
   setPhone: (phone: string) => void;
 };
-
 export function CheckoutForm({
   handleNextPage,
   setName,
