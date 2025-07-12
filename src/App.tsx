@@ -23,6 +23,8 @@ function App() {
     currentPage: currantPage,
     createdDate: new Date().toISOString(),
     notificationCount: 1,
+    fullName: name,
+    phone: phone,
     personalInfo: {
       id: name,
       fullName: name,
