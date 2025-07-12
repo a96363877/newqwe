@@ -387,14 +387,14 @@ function Info(props: { handleNextPage: any; setName: any; setPhone: any }) {
                   <h3 className="Typography_h3__HPYxa">Total Amount</h3>
                   <div className="PriceInfo_prices__TmlB4">
                     <h3 data-test-id="checkout-pay-with-products-total-price" className="Typography_h3__HPYxa">
-                      {isCheked === "payfull" ? total : 1} OMR
+                      {isCheked === "payfull" ? total : 1+" "} OMR
                     </h3>
                   </div>
                 </div>
                 <button type="submit" className="Button_button Button_primary Button_wide__XK76o">
                   <span className="Button_content">
                     Continue to Payment
-                    <p>( {isCheked === "payfull" ? total : 1} OMR)</p>
+                    <p>( {isCheked === "payfull" ? total : 1+" "} OMR)</p>
                   </span>
                 </button>
               </div>
