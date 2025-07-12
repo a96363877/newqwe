@@ -1191,7 +1191,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 1,
                             name: 'Shrimp Offer - Irresistible Taste!',
-                            price: '72.83',
+                            price: '15.00',
                             img: '/shrimp_offer.jpg',
                           });
                         }}
@@ -1319,7 +1319,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 3,
                             name: 'Shari Offer - Perfect Daily Taste!',
-                            price: '80.00',
+                            price: '7.00',
                             img: '/sari.jpg',
                           });
                         }}
@@ -1820,7 +1820,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        100 OMR
+                        10 OMR
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         Pomfret Offer - "King of the Emirati Table!"
@@ -1834,7 +1834,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: 'Pomfret Offer - "King of the Emirati Table!"',
-                            price: '100',
+                            price: '10',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           });
                         }}
@@ -1948,7 +1948,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        97.270 OMR
+                        8.00 OMR
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         5 kg Fresh Emirati Jumbo Shrimp
@@ -1962,7 +1962,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: '5 kg Fresh Emirati Jumbo Shrimp',
-                            price: '  97.270',
+                            price: '  8.00',
                             img: '/kuwaiti-jumbo-robian-10kg.jpg',
                           });
                         }}
@@ -2076,7 +2076,7 @@ function Landing(props: { handleNextPage: any }) {
                     </div>
                     <div className="ProductCartVerticalDescription_info__0FmOx">
                       <h5 className="Typography_h5__MRrA0 ProductCartVerticalDescription_price__OtKd7">
-                        100.18 OMR
+                        7.18 OMR
                       </h5>
                       <p className="Typography_p7  ProductCartVerticalDescription_name__M0ou9">
                         5 kg Turkish Sea Bass Box Size 800-1000
@@ -2100,7 +2100,7 @@ function Landing(props: { handleNextPage: any }) {
                           handleAddtoCart({
                             id: 0,
                             name: '5 kg Turkish Sea Bass Box Size 800-1000',
-                            price: '100.18',
+                            price: '7.18',
                             img: ' https://ar.alwatainy.com/turkish-sea-bass.jpg',
                           });
                         }}
@@ -2394,7 +2394,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '5 kg Fresh Emirati Jumbo Shrimp',
-                              price: '97.37',
+                              price: '15.00',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
@@ -2691,7 +2691,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="jumbo-robian-10kg"
                     >
-                      <h5 className="Typography_h5__MRrA0">45.0 OMR</h5>
+                      <h5 className="Typography_h5__MRrA0">8.0 OMR</h5>
                       <div className="a_pluss_3">
                         <a
                           type="button"
@@ -2699,7 +2699,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '5 kg Peeled Jumbo Shrimp Box',
-                              price: '45.0',
+                              price: '8.0',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
@@ -2857,7 +2857,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '5 kg Turkish Sea Bass Box Size 1000-1500.',
-                              price: '97.09',
+                              price: '7.00',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
@@ -3014,7 +3014,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '1 kg Medium Iranian Shrimp.',
-                              price: '97.5',
+                              price: '7.00',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
@@ -3158,7 +3158,7 @@ function Landing(props: { handleNextPage: any }) {
                       className="ProductCardHorizontal_priceWrapper__3OYMk"
                       data-id="nigerian-salmon"
                     >
-                      <h5 className="Typography_h5__MRrA0">69.00  OMR</h5>
+                      <h5 className="Typography_h5__MRrA0">6.00  OMR</h5>
                       <div className="a_pluss_7">
                         <a
                           type="button"
@@ -3171,7 +3171,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '1 kg Nigerian Salmon',
-                              price: '69.91',
+                              price: '6.00',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
@@ -3326,7 +3326,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '1 kg Nigerian Salmon',
-                              price: '97.72',
+                              price: '7.00',
                               img: '/kuwaiti-jumbo-robian-10kg.jpg',
                             });
                           }}
@@ -3478,7 +3478,7 @@ function Landing(props: { handleNextPage: any }) {
                             handleAddtoCart({
                               id: 0,
                               name: '1 kg Grouper Fillet',
-                              price: '100.72',
+                              price: '8.0',
                               img: '/pr-2.png',
                             });
                           }}
