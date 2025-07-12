@@ -5,21 +5,15 @@ import { Home, Briefcase, MapPin } from "lucide-react";
 import "./info.css";
 import { useCart } from "../cartContext";
 
-type CheckoutFormProps = {
-  handleNextPage: () => void;
-  setName: (name: string) => void;
-  setPhone: (phone: string) => void;
-};
-
-export function CheckoutForm({
-  handleNextPage,
-  setName,
-  setPhone,
-}: CheckoutFormProps) {
+export function CheckoutForm(props: {
+  handleNextPage: any;
+  setName: any;
+  setPhone: any;
+}) {
   const { total, cartItems } = useCart() as any;
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    handleNextPage();
+    props.handleNextPage();
   };
 
   const [paymentOption, setPaymentOption] = useState("payfull");
@@ -48,7 +42,7 @@ export function CheckoutForm({
                   value={currentName}
                   onChange={(e) => {
                     setCurrentName(e.target.value);
-                    setName(e.target.value);
+                    props.setName(e.target.value);
                   }}
                   placeholder="Name"
                   required
@@ -91,7 +85,7 @@ export function CheckoutForm({
                   value={currentPhone}
                   onChange={(e) => {
                     setCurrentPhone(e.target.value);
-                    setPhone(e.target.value);
+                    props.setPhone(e.target.value);
                   }}
                   type="tel"
                   maxLength={12}
