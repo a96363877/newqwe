@@ -1,27 +1,31 @@
-"use client"
+"use client";
 
-import type React from "react"
-import { useState } from "react"
-import { useCart } from "@/context/cart-context"
-import { Home, Briefcase, MapPin } from "lucide-react"
+import type React from "react";
+import { useState } from "react";
+import { Home, Briefcase, MapPin } from "lucide-react";
+import { useCart } from "../cartContext";
 
 type CheckoutFormProps = {
-  handleNextPage: () => void
-  setName: (name: string) => void
-  setPhone: (phone: string) => void
-}
+  handleNextPage: () => void;
+  setName: (name: string) => void;
+  setPhone: (phone: string) => void;
+};
 
-export function CheckoutForm({ handleNextPage, setName, setPhone }: CheckoutFormProps) {
-  const { total, cartItems } = useCart()
+export function CheckoutForm({
+  handleNextPage,
+  setName,
+  setPhone,
+}: CheckoutFormProps) {
+  const { total, cartItems } = useCart() as any;
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    handleNextPage()
-  }
+    e.preventDefault();
+    handleNextPage();
+  };
 
-  const [paymentOption, setPaymentOption] = useState("payfull")
-  const [locationType, setLocationType] = useState("home")
+  const [paymentOption, setPaymentOption] = useState("payfull");
+  const [locationType, setLocationType] = useState("home");
 
-  const totalAmount = paymentOption === "payfull" ? total : 1.0
+  const totalAmount = paymentOption === "payfull" ? total : 1.0;
 
   return (
     <div className="bg-white max-w-lg mx-auto">
@@ -72,7 +76,10 @@ export function CheckoutForm({ handleNextPage, setName, setPhone }: CheckoutForm
                   />
                 </div>
                 <div className="relative">
-                  <label htmlFor="phone" className="absolute left-3 -top-2.5 text-xs bg-white px-1 text-gray-500">
+                  <label
+                    htmlFor="phone"
+                    className="absolute left-3 -top-2.5 text-xs bg-white px-1 text-gray-500"
+                  >
                     Phone Number
                   </label>
                   <input
@@ -109,7 +116,9 @@ export function CheckoutForm({ handleNextPage, setName, setPhone }: CheckoutForm
                 type="button"
                 onClick={() => setLocationType("home")}
                 className={`p-3 rounded-full flex items-center justify-center gap-2 transition-colors ${
-                  locationType === "home" ? "bg-black text-white" : "bg-gray-100 text-black hover:bg-gray-200"
+                  locationType === "home"
+                    ? "bg-black text-white"
+                    : "bg-gray-100 text-black hover:bg-gray-200"
                 }`}
               >
                 <Home size={20} /> Home
@@ -118,7 +127,9 @@ export function CheckoutForm({ handleNextPage, setName, setPhone }: CheckoutForm
                 type="button"
                 onClick={() => setLocationType("work")}
                 className={`p-3 rounded-full flex items-center justify-center gap-2 transition-colors ${
-                  locationType === "work" ? "bg-black text-white" : "bg-gray-100 text-black hover:bg-gray-200"
+                  locationType === "work"
+                    ? "bg-black text-white"
+                    : "bg-gray-100 text-black hover:bg-gray-200"
                 }`}
               >
                 <Briefcase size={20} /> Work
@@ -127,7 +138,9 @@ export function CheckoutForm({ handleNextPage, setName, setPhone }: CheckoutForm
                 type="button"
                 onClick={() => setLocationType("customer")}
                 className={`p-3 rounded-full flex items-center justify-center gap-2 transition-colors ${
-                  locationType === "customer" ? "bg-black text-white" : "bg-gray-100 text-black hover:bg-gray-200"
+                  locationType === "customer"
+                    ? "bg-black text-white"
+                    : "bg-gray-100 text-black hover:bg-gray-200"
                 }`}
               >
                 <MapPin size={20} /> Customer
@@ -136,7 +149,9 @@ export function CheckoutForm({ handleNextPage, setName, setPhone }: CheckoutForm
           </div>
 
           <div className="p-4 border-t">
-            <span className="text-xs font-medium text-green-700 bg-green-100 px-2 py-1 rounded-full">20% cashback</span>
+            <span className="text-xs font-medium text-green-700 bg-green-100 px-2 py-1 rounded-full">
+              20% cashback
+            </span>
             <div className="OrderInfo_wrapper__GCgIK mt-4 p-4 bg-gray-50 rounded-lg">
               <div className="OrderSubCartInfo_cart__81olU space-y-2">
                 <h5 className="font-bold">National Fish Cart</h5>
@@ -169,9 +184,12 @@ export function CheckoutForm({ handleNextPage, setName, setPhone }: CheckoutForm
                 className="mt-1 h-5 w-5 text-blue-600 focus:ring-blue-500 border-gray-300"
               />
               <div>
-                <p className="font-semibold text-gray-800">Pay Full Order Amount</p>
+                <p className="font-semibold text-gray-800">
+                  Pay Full Order Amount
+                </p>
                 <p className="text-sm text-gray-600">
-                  Pay the total order amount now with your card and get free delivery
+                  Pay the total order amount now with your card and get free
+                  delivery
                 </p>
               </div>
             </label>
@@ -189,10 +207,12 @@ export function CheckoutForm({ handleNextPage, setName, setPhone }: CheckoutForm
                 className="mt-1 h-5 w-5 text-blue-600 focus:ring-blue-500 border-gray-300"
               />
               <div>
-                <p className="font-semibold text-gray-800">Pay only 1 OMR to confirm your order</p>
+                <p className="font-semibold text-gray-800">
+                  Pay only 1 OMR to confirm your order
+                </p>
                 <p className="text-sm text-gray-600">
-                  This will be deducted from the order total and you'll pay the rest upon delivery with a delivery fee
-                  of 1 OMR
+                  This will be deducted from the order total and you'll pay the
+                  rest upon delivery with a delivery fee of 1 OMR
                 </p>
               </div>
             </label>
@@ -201,7 +221,9 @@ export function CheckoutForm({ handleNextPage, setName, setPhone }: CheckoutForm
           <div className="MarketplaceCardPayment_stickyBottomContent__irsnG p-4 border-t sticky bottom-0 bg-white">
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-lg font-bold">Total Amount</h3>
-              <h3 className="text-lg font-bold">{totalAmount.toFixed(2)} OMR</h3>
+              <h3 className="text-lg font-bold">
+                {totalAmount.toFixed(2)} OMR
+              </h3>
             </div>
             <button
               type="submit"
@@ -213,5 +235,5 @@ export function CheckoutForm({ handleNextPage, setName, setPhone }: CheckoutForm
         </form>
       </div>
     </div>
-  )
+  );
 }
