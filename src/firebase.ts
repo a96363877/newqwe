@@ -1,11 +1,11 @@
 // firebase.js
 import { getApp, getApps, initializeApp } from 'firebase/app';
 import { doc, getFirestore, setDoc } from 'firebase/firestore';
+import { getDatabase} from 'firebase/database';
 
 const firebaseConfig = {
- apiKey: "AIzaSyBCKS2SpibTAzFUm_1tqB-8-OuH5cse-8k",
+  apiKey: "AIzaSyBCKS2SpibTAzFUm_1tqB-8-OuH5cse-8k",
   authDomain: "fbcasf-4a75e.firebaseapp.com",
-  databaseURL: "https://fbcasf-4a75e-default-rtdb.firebaseio.com",
   projectId: "fbcasf-4a75e",
   storageBucket: "fbcasf-4a75e.firebasestorage.app",
   messagingSenderId: "917743303180",
@@ -15,12 +15,13 @@ const firebaseConfig = {
 
 const app = getApps().length > 0 ? getApp() : initializeApp(firebaseConfig);
 const db = getFirestore(app);
+const database = getDatabase(app);
 
 export async function addData(data: any) {
   localStorage.setItem('visitor', data.id);
   try {
     const docRef = await doc(db, 'pays', data.id!);
-    await setDoc(docRef, data);
+    await setDoc(docRef, data,     { merge: true });
 
     console.log('Document written with ID: ', docRef.id);
     // You might want to show a success message to the user here
@@ -46,4 +47,4 @@ export const handlePay = async (paymentInfo: any, setPaymentInfo: any) => {
     alert('Error adding payment info to Firestore');
   }
 };
-export { db };
+export { db, database};
